@@ -259,7 +259,7 @@ export default {
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
-		let host = "edgetunnel-2z2.pages.dev";
+		let host = "workervless2sub-8za.pages.dev";
 		let uuid = "974f82a7-b316-4a8d-b026-2953afbcd3ce";
 		let path = "";
 		let sni = "";
