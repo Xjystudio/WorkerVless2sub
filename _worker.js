@@ -259,10 +259,10 @@ export default {
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
-		let host = "workervless2sub-8za.pages.dev";
-		let uuid = "30e9c5c8-ed28-4cd9-b008-dc67277f8b02";
-		let path = "";
-		let sni = "";
+		let host = "sub.xiejiayu.com/";
+		let uuid = "f775978b-6e22-41a8-ae5e-5f9779e6745f";
+		let path = "/?ed=2048";
+		let sni = "sub.xiejiayu.com/";
 		let UD = Math.floor(((timestamp - Date.now())/timestamp * 99 * 1099511627776 * 1024)/2);
 		if (env.UA) MamaJustKilledAMan = MamaJustKilledAMan.concat(await ADD(env.UA));
 
