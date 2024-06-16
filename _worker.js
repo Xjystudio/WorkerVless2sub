@@ -260,7 +260,7 @@ export default {
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
 		let host = "workervless2sub-8za.pages.dev";
-		let uuid = "3a73e595-b79c-4c04-a411-9d36e15de783";
+		let uuid = "30e9c5c8-ed28-4cd9-b008-dc67277f8b02";
 		let path = "";
 		let sni = "";
 		let UD = Math.floor(((timestamp - Date.now())/timestamp * 99 * 1099511627776 * 1024)/2);
